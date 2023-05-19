@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>週末の行き先を決めよう!</title>
+    <meta name="description" content="java">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <!-- 画像は全てAdobeStockにて取得 -->
+        <div class="btn_start">今の気分は？</div>
+        <div id="mb"><img src="mb.png" id="mb_img"></div>
+        <div class="sp"><p class="sp_doc">行き先が表示されます</p></div>
+        
+        <div class="flexbox">
+            <div class="btn_yes">ぴったり</div>
+            <div class="btn_no">ちょっと違う</div>
+        </div>
+
+        <div class="anm_title">どれくらい遠くへ行こう？</div>
+        <div id="anm_imgbox"><img src="anm.png" class="anm_img"></div>
+        <hr class="hr">
+        <div class="flexbox2">
+            <div class="btn_start2">スタート</div>
+            <div class="btn_stop">ストップ</div>
+        </div>
+
+        <div class="resultbox">
+            <p class="result_text">ここに結果が入ります</p>
+            <img src="mb.png" id="result_img"> 
+        </div>
+
+        <div class="btn_back">最初に戻る</div>
+        
+        <img src="note.png" alt="ノートアイコン" class="fixedicon">
+        <p id="fixedtext"></p>
+
+    </main>
+
+
+    <!-- jqueryを先にする -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- jsを紐づける -->
+    <script src="js/04.js"></script>
+    <script src="js/01.js"></script>
+    <script src="js/02.js"></script>
+    <script src="js/03.js"></script>
+    <script src="js/05.js"></script>
+</body>
+</html>
+
